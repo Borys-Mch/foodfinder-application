@@ -8,7 +8,7 @@ const AuthElement = (): JSX.Element => {
 
     return (
         <>
-            {status === "authenticated" (
+            {status === "authenticated" && (
                 <span className={styles.name}>
                     Hi <b>{session?.user?.name}</b>
                 </span>
